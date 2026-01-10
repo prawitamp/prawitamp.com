@@ -56,4 +56,4 @@ UI design on Figma: <https://www.figma.com/design/6zb3JKFsJeQVtsG5usinkI/prawita
 
 ## Preview 😎
 
-![Home page](images/home.jpg)
+![Home page](screenshot/home.jpg)
