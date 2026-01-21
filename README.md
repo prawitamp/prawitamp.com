@@ -7,7 +7,7 @@ I want to share my profile, bio, photo, links, social media, companies, projects
 
 Personal Website of Prawita Mepilianti
 
-Access the Website at : <https://prawitamp.com> 🌏
+Access the Website at: <https://prawitamp.com> 🌏
 
 ## Bio
 
