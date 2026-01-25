@@ -4,94 +4,109 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact - Prawita Mepilianti - Software Engineer</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <nav>
-      <!-- logo -->
-      <a href="">
-        <img src="../images/logo.png" alt="Logo" width="67" height="40" />
+      <a id="logo" href="/">
+        <img src="/images/logo.png" alt="Logo" width="67" height="40" />
       </a>
-      <!-- link to contact -->
-      <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="../projects/index.html">Projects</a></li>
-        <li><a href="../works/index.html">Works</a></li>
-        <li><a href="../contact/index.html">Contact</a></li>
+      <div></div>
+      <ul class="link-to-contact">
+        <li><a href="/">Home</a></li>
+        <li><a href="/projects/">Projects</a></li>
+        <li><a href="/works/">Works</a></li>
+        <li><a href="/contact">Contact</a></li>
       </ul>
+      <div></div>
     </nav>
 
     <main>
-      <img
-        src="../images/double-square.png"
-        alt="double-square"
-        width="64"
-        height="21"
-      />
-      <h4>Hello</h4>
-      <p>
-        Drop me a form for inquiries, collaborations, jobs or just to say hello.
-      </p>
+      <div class="contact-form">
+        <img
+          src="../images/double-square.png"
+          alt="double-square"
+          width="64"
+          height="21"
+        />
+        <h1>Hello</h1>
+        <p>
+          Drop me a message for inquiries, collaborations, jobs or just to say
+          hello.
+        </p>
 
-      <form>
-        <label for="fullname">Fullname</label><br />
-        <input type="text" id="fullname" name="fullname" /><br /><br />
+        <form>
+          <label for="fullname">Fullname</label><br />
+          <input type="text" id="fullname" name="fullname" /><br /><br />
 
-        <label for="email">E-mail</label><br />
-        <input type="email" id="email" name="email" /><br /><br />
+          <label for="email">E-mail</label><br />
+          <input type="email" id="email" name="email" /><br /><br />
 
-        <label for="messages">Messages</label><br />
-        <textarea id="message" name="message"></textarea><br /><br />
+          <label for="messages">Messages</label><br />
+          <textarea id="message" name="message"></textarea><br /><br />
 
-        <input type="submit" value="Submit" />
-      </form>
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
     </main>
 
     <footer>
-      <div>
-        <!-- footer left -->
-        <div>
-          <!-- logo and name -->
+      <div class="footer">
+        <div id="footer-left">
           <div>
-            <img src="../images/logo.png" alt="logo" width="67" height="40" />
-            <p>Prawita Mepilianti</p>
+            <img src="/images/logo.png" alt="logo" width="67" height="40" />
+            <p class="footer-name">Prawita Mepilianti</p>
           </div>
-          <p>© 2026 prawitamp. 🌸 All rights reserved.</p>
-          <p>Terms · Privacy Policy</p>
+          <p class="footer-create">© 2026. All rights reserved.</p>
+          <p class="footer-terms">Terms · Privacy Policy</p>
         </div>
 
-        <!-- footer right -->
-        <div>
+        <div id="footer-right">
           <h4>Connect With Me</h4>
           <p>
-            Find me online on most digital platforms @prawitamp, or by clicking
-            the links below.
+            Find me online on most digital platforms by clicking the links
+            below.
           </p>
-          <!-- icon connect in footer -->
-          <div>
-            <img
-              src="../images/message.png"
-              alt="message"
-              width="50"
-              height="50"
-            />
-            <img
-              src="../images/linkedin.png"
-              alt="linkedin"
-              width="50"
-              height="50"
-            />
-            <img
-              src="../images/github.png"
-              alt="github"
-              width="50"
-              height="50"
-            />
-            <img
-              src="../images/telegram.png"
-              alt="telegram"
-              width="50"
-              height="50"
-            />
+
+          <div class="footer-icon">
+            <a href="mailto:prawitamepilianti@gmail.com">
+              <img
+                src="/images/message.png"
+                alt="message"
+                width="50"
+                height="50"
+              />
+            </a>
+            <a href="https://www.linkedin.com/in/prawitamp/">
+              <img
+                src="/images/linkedin.png"
+                alt="linkedin"
+                width="50"
+                height="50"
+              />
+            </a>
+            <a href="https://github.com/prawitamp">
+              <img
+                src="/images/github.png"
+                alt="github"
+                width="50"
+                height="50"
+              />
+            </a>
+            <a href="https://t.me/prawitamp">
+              <img
+                src="/images/telegram.png"
+                alt="telegram"
+                width="50"
+                height="50"
+              />
+            </a>
           </div>
         </div>
       </div>
