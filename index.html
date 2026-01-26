@@ -4,42 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Prawita Mepilianti - Software Engineer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <nav>
-      <!-- logo -->
-      <a href="">
+      <a id="logo" href="/">
         <img src="/images/logo.png" alt="Logo" width="67" height="40" />
       </a>
-      <!-- link to contact -->
-      <ul>
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./projects/index.html">Projects</a></li>
-        <li><a href="./works/index.html">Works</a></li>
-        <li><a href="./contact/index.html">Contact</a></li>
+      <div></div>
+      <ul class="link-to-contact">
+        <li><a href="/">Home</a></li>
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="/works">Works</a></li>
+        <li><a href="/contact">Contact</a></li>
       </ul>
+      <div></div>
     </nav>
 
     <header>
-      <div>
+      <div id="hero">
         <img
-          src="./images/home-photo.png"
-          alt="home-photo"
+          src="/images/home-photo-prawita.jpg"
+          alt="Photo of Prawita on Home"
           width="354"
           height="473"
         />
         <img
-          src="./images/home-name.png"
-          alt="home-name"
+          src="/images/home-name.png"
+          alt="Full Name on Home"
           width="486"
           height="204"
         />
       </div>
 
-      <div>
+      <div id="column-text">
         <img
-          src="./images/home-columntext.png"
-          alt="home-columntext"
+          src="/images/home-columntext.png"
+          alt="Column Text on Home"
           width="931"
           height="321"
         />
@@ -51,286 +58,177 @@
         </p>
       </div>
 
-      <div>
+      <div id="hero-bar">
         <h2>What do you want to do now?</h2>
-        <div>
-          <a href="./projects/index.html">See my portfolio</a>
-          <a href="./works/index.html">See more about me</a>
-          <a href="./contact/index.html">Contact me</a>
+        <div id="hero-link">
+          <a href="/projects">See my portfolio</a>
+          <a href="/works">See more about me</a>
+          <a href="/contact">Contact me</a>
         </div>
       </div>
     </header>
 
     <main>
-      <section>
-        <img
-          src="./images/double-square.png"
-          alt="double-square"
-          width="64"
-          height="21"
-        />
-        <div>
+      <section id="section-excites">
+        <div id="home-sticker">
           <img
-            src="./images/home-sticker.png"
+            src="/images/home-sticker.png"
             alt="home-sticker"
             width="100"
             height="119"
           />
-          <h3>🌐 What <span>excites</span> me?</h3>
-
-          <ul>
-            <li>Building meaningful connections through technology.</li>
-            <li>
-              Collaborating with like minded people on impactful projects.
-            </li>
-            <li>
-              Solving challenges with creativity and a digital first mindset.
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <section>
-        <div>
-          <div>
+          <div id="excites-content">
             <img
-              src="./images/double-square.png"
+              src="/images/double-square.png"
               alt="double-square"
               width="64"
               height="21"
             />
-            <h3>💻 <span>Tech Stack</span> I’ve explored:</h3>
+            <h3>🌐 What <span class="text-span">excites</span> me?</h3>
+
+            <ul>
+              <li>Building meaningful connections through technology.</li>
+              <li>
+                Collaborating with like minded people on impactful projects.
+              </li>
+              <li>
+                Solving challenges with creativity and a digital first mindset.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="section-tech-stack">
+        <div id="section-tech-stack-tittle">
+          <div>
+            <img
+              src="/images/double-square.png"
+              alt="double-square"
+              width="64"
+              height="21"
+            />
+            <h3>💻 <span class="text-span">Tech Stack</span> I’ve explored:</h3>
           </div>
 
           <img
-            src="./images/computer.png"
+            src="/images/computer.png"
             alt="computer"
             width="174"
             height="135"
           />
         </div>
 
-        <div>
-          <!-- Tech stack left -->
-          <div>
-            <!-- Main programming languange -->
-            <div>
-              <p>Main Programming Language :</p>
-              <!-- JS -->
-              <div>
-                <img
-                  src="./images/javascript.png"
-                  alt="javascript"
-                  width="50"
-                  height="50"
-                />
-                <p>JavaScript</p>
-              </div>
-              <!-- TS -->
-              <div>
-                <img
-                  src="./images/typescript.png"
-                  alt="typescript"
-                  width="50"
-                  height="50"
-                />
-                <p>TypeScript</p>
+        <div id="tech-stack-content">
+          <div id="tech-stack-left">
+            <div id="main-programming-languages">
+              <p class="name-tech-stack">Main Programming Language:</p>
+              <div class="tech-stack-content-item">
+                <div>
+                  <img src="/images/javascript.png" alt="javascript" />
+                  <p class="name-languange">JavaScript</p>
+                </div>
+                <div>
+                  <img src="/images/typescript.png" alt="typescript" />
+                  <p class="name-languange">TypeScript</p>
+                </div>
               </div>
             </div>
-            <!-- Frontend : -->
-            <div>
-              <p>Frontend :</p>
-              <!-- HTML -->
-              <div>
-                <img
-                  src="./images/html.png"
-                  alt="HTML"
-                  width="50"
-                  height="50"
-                />
-                <p>HTML</p>
-              </div>
-              <!-- CSS 3 -->
-              <div>
-                <img
-                  src="./images/css.png"
-                  alt="CSS 3"
-                  width="50"
-                  height="50"
-                />
-                <p>CSS 3</p>
-              </div>
-              <!-- Tailwind CSS -->
-              <div>
-                <img
-                  src="./images/tailwind.png"
-                  alt="Tailwind CSS"
-                  width="50"
-                  height="50"
-                />
-                <p>Tailwind CSS</p>
-              </div>
-              <!-- React -->
-              <div>
-                <img
-                  src="./images/react.png"
-                  alt="React"
-                  width="50"
-                  height="50"
-                />
-                <p>React</p>
+            <div id="frontend">
+              <p class="name-tech-stack">Frontend:</p>
+              <div class="tech-stack-content-item">
+                <div>
+                  <img src="/images/html.png" alt="HTML" />
+                  <p class="name-languange">HTML</p>
+                </div>
+                <div>
+                  <img src="/images/css.png" alt="CSS" />
+                  <p class="name-languange">CSS</p>
+                </div>
+                <div>
+                  <img src="/images/tailwind.png" alt="Tailwind CSS" />
+                  <p class="name-languange">Tailwind CSS</p>
+                </div>
+                <div>
+                  <img src="/images/react.png" alt="React" />
+                  <p class="name-languange">React</p>
+                </div>
               </div>
             </div>
-            <!-- Backend : -->
-            <div>
-              <p>Backend :</p>
-              <!-- NodeJS -->
-              <div>
-                <img
-                  src="./images/nodejs.png"
-                  alt="NodeJS"
-                  width="50"
-                  height="50"
-                />
-                <p>NodeJS</p>
-              </div>
-              <!-- ExpressJS -->
-              <div>
-                <img
-                  src="./images/expressjs.png"
-                  alt="ExpressJS"
-                  width="50"
-                  height="50"
-                />
-                <p>ExpressJS</p>
-              </div>
-              <!-- Docker -->
-              <div>
-                <img
-                  src="./images/docker.png"
-                  alt="Docker"
-                  width="50"
-                  height="50"
-                />
-                <p>Docker</p>
+            <div id="backend">
+              <p class="name-tech-stack">Backend:</p>
+              <div class="tech-stack-content-item">
+                <div>
+                  <img src="/images/nodejs.png" alt="NodeJS" />
+                  <p class="name-languange">NodeJS</p>
+                </div>
+                <div>
+                  <img src="/images/expressjs.png" alt="ExpressJS" />
+                  <p class="name-languange">ExpressJS</p>
+                </div>
+                <div>
+                  <img src="/images/docker.png" alt="Docker" />
+                  <p class="name-languange">Docker</p>
+                </div>
               </div>
             </div>
           </div>
 
-          <!-- Tech stack right -->
-          <div>
-            <!-- Database : -->
-            <div>
-              <p>Database :</p>
-              <!-- MySQL -->
-              <div>
-                <img
-                  src="./images/mysql.png"
-                  alt="MySQL"
-                  width="50"
-                  height="50"
-                />
-                <p>MySQL</p>
-              </div>
-              <!-- PostgreSQL -->
-              <div>
-                <img
-                  src="./images/postgresql.png"
-                  alt="PostgreSQL"
-                  width="50"
-                  height="50"
-                />
-                <p>PostgreSQL</p>
-              </div>
-              <!-- MongoDB -->
-              <div>
-                <img
-                  src="./images/mongodb.png"
-                  alt="MongoDB"
-                  width="50"
-                  height="50"
-                />
-                <p>MongoDB</p>
+          <div id="tech-stack-right">
+            <div id="database">
+              <p class="name-tech-stack">Database:</p>
+              <div class="tech-stack-content-item">
+                <div>
+                  <img src="/images/mysql.png" alt="MySQL" />
+                  <p class="name-languange">MySQL</p>
+                </div>
+                <div>
+                  <img src="/images/postgresql.png" alt="PostgreSQL" />
+                  <p class="name-languange">PostgreSQL</p>
+                </div>
+                <div>
+                  <img src="/images/mongodb.png" alt="MongoDB" />
+                  <p class="name-languange">MongoDB</p>
+                </div>
               </div>
             </div>
 
-            <!-- Design : -->
-            <div>
-              <p>Design :</p>
-              <!-- Figma -->
-              <div>
-                <img
-                  src="./images/figma.png"
-                  alt="Figma"
-                  width="50"
-                  height="50"
-                />
-                <p>Figma</p>
-              </div>
-              <!-- Canva -->
-              <div>
-                <img
-                  src="./images/canva.png"
-                  alt="Canva"
-                  width="50"
-                  height="50"
-                />
-                <p>Canva</p>
+            <div id="design">
+              <p class="name-tech-stack">Design:</p>
+              <div class="tech-stack-content-item">
+                <div>
+                  <img src="/images/figma.png" alt="Figma" />
+                  <p class="name-languange">Figma</p>
+                </div>
+                <div>
+                  <img src="/images/canva.png" alt="Canva" />
+                  <p class="name-languange">Canva</p>
+                </div>
               </div>
             </div>
-
-            <!-- Another : -->
-            <div>
-              <p>Another :</p>
-              <!-- Github -->
-              <div>
-                <img
-                  src="./images/github.png"
-                  alt="Github"
-                  width="50"
-                  height="50"
-                />
-                <p>Github</p>
-              </div>
-              <!-- Postman -->
-              <div>
-                <img
-                  src="./images/postman.png"
-                  alt="Postman"
-                  width="50"
-                  height="50"
-                />
-                <p>Postman</p>
-              </div>
-              <!-- Prisma -->
-              <div>
-                <img
-                  src="./images/prisma.png"
-                  alt="Prisma"
-                  width="50"
-                  height="50"
-                />
-                <p>Prisma</p>
-              </div>
-              <!-- Slack -->
-              <div>
-                <img
-                  src="./images/slack.png"
-                  alt="Slack"
-                  width="50"
-                  height="50"
-                />
-                <p>Slack</p>
-              </div>
-              <!-- Notion -->
-              <div>
-                <img
-                  src="./images/notion.png"
-                  alt="Notion"
-                  width="50"
-                  height="50"
-                />
-                <p>Notion</p>
+            <div id="others">
+              <p class="name-tech-stack">Others:</p>
+              <div class="tech-stack-content-item">
+                <div>
+                  <img src="/images/github.png" alt="Github" />
+                  <p class="name-languange">Github</p>
+                </div>
+                <div>
+                  <img src="/images/postman.png" alt="Postman" />
+                  <p class="name-languange">Postman</p>
+                </div>
+                <div>
+                  <img src="/images/prisma.png" alt="Prisma" />
+                  <p class="name-languange">Prisma</p>
+                </div>
+                <div>
+                  <img src="/images/slack.png" alt="Slack" />
+                  <p class="name-languange">Slack</p>
+                </div>
+                <div>
+                  <img src="/images/notion.png" alt="Notion" />
+                  <p class="name-languange">Notion</p>
+                </div>
               </div>
             </div>
           </div>
@@ -339,51 +237,56 @@
     </main>
 
     <footer>
-      <div>
-        <!-- footer left -->
-        <div>
-          <!-- logo and name -->
+      <div class="footer">
+        <div id="footer-left">
           <div>
-            <img src="./images/logo.png" alt="logo" width="67" height="40" />
-            <p>Prawita Mepilianti</p>
+            <img src="/images/logo.png" alt="logo" width="67" height="40" />
+            <p class="footer-name">Prawita Mepilianti</p>
           </div>
-          <p>© 2026 🌸 All rights reserved.</p>
-          <p>Terms · Privacy Policy</p>
+          <p class="footer-create">© 2026. All rights reserved.</p>
+          <p class="footer-terms">Terms · Privacy Policy</p>
         </div>
 
-        <!-- footer right -->
-        <div>
+        <div id="footer-right">
           <h4>Connect With Me</h4>
           <p>
-            Find me online on most digital platforms @prawitamp, or by clicking
-            the links below.
+            Find me online on most digital platforms by clicking the links
+            below.
           </p>
-          <!-- icon connect in footer -->
-          <div>
-            <img
-              src="./images/message.png"
-              alt="message"
-              width="50"
-              height="50"
-            />
-            <img
-              src="./images/linkedin.png"
-              alt="linkedin"
-              width="50"
-              height="50"
-            />
-            <img
-              src="./images/github.png"
-              alt="github"
-              width="50"
-              height="50"
-            />
-            <img
-              src="./images/telegram.png"
-              alt="telegram"
-              width="50"
-              height="50"
-            />
+
+          <div class="footer-icon">
+            <a href="mailto:prawitamepilianti@gmail.com">
+              <img
+                src="/images/message.png"
+                alt="message"
+                width="50"
+                height="50"
+              />
+            </a>
+            <a href="https://www.linkedin.com/in/prawitamp/">
+              <img
+                src="/images/linkedin.png"
+                alt="linkedin"
+                width="50"
+                height="50"
+              />
+            </a>
+            <a href="https://github.com/prawitamp">
+              <img
+                src="/images/github.png"
+                alt="github"
+                width="50"
+                height="50"
+              />
+            </a>
+            <a href="https://t.me/prawitamp">
+              <img
+                src="/images/telegram.png"
+                alt="telegram"
+                width="50"
+                height="50"
+              />
+            </a>
           </div>
         </div>
       </div>
