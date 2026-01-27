@@ -9,6 +9,8 @@ Personal Website of Prawita Mepilianti
 
 Access the Website at: <https://prawitamp.com> 🌏
 
+Backup link: <https://prawitamp-com.netlify.app>
+
 ## Bio
 
 I’m a passionate tech enthusiast who’s constantly amazed by how technology shapes our world.

@@ -1,9 +1,9 @@
-* {
-  background-color: #f6f8fc;
-  font-family: 'Plus Jakarta Sans', sans-serif;
+:root {
+  --bg-white: #f6f8fc;
 }
 
 body {
+  font-family: "Plus Jakarta Sans", sans-serif;
   margin: 0;
 }
 
@@ -12,8 +12,13 @@ nav {
   justify-content: space-between;
 }
 
-#logo {
-  margin: 20px 20px 20px 20px;
+.nav-home,
+.header-home {
+  background-color: #f6f8fc;
+}
+
+.logo {
+  margin: 20px;
 }
 
 .link-to-contact {
@@ -23,7 +28,7 @@ nav {
   gap: 37px;
 }
 
-.link-to-contact > li > a {
+.link-to-contact li a {
   color: #1c5ddc;
   text-decoration: none;
   font-size: 20px;
@@ -68,7 +73,7 @@ header {
   padding: 20px;
 }
 
-#hero-bar {
+.hero-bar {
   background-color: #006fff;
   display: flex;
   align-items: center;
@@ -202,7 +207,7 @@ main {
   font-weight: 600;
 }
 
-.name-languange {
+.name-language {
   font-size: 15px;
   font-weight: 500;
 }
@@ -503,8 +508,8 @@ main {
   margin-bottom: 6px;
 }
 
-.contact-form input[type='text'],
-.contact-form input[type='email'],
+.contact-form input[type="text"],
+.contact-form input[type="email"],
 .contact-form textarea {
   width: 100%;
   padding: 12px 14px;
@@ -520,7 +525,7 @@ main {
   resize: none;
 }
 
-.contact-form input[type='submit'] {
+.contact-form input[type="submit"] {
   margin-top: 12px;
   padding: 12px;
   background: #bfd3ff;
