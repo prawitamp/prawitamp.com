@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -11,27 +11,32 @@
       href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
       rel="stylesheet"
     />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <nav class="nav-works">
-      <a class="nav-works" id="logo" href="/">
+    <nav class="flex justify-between works-bg-color">
+      <a class="m-[10px] lg:m-[20px]" href="/">
         <img
-          class="nav-works"
+          class="w-10 lg:w-[67px] h-auto works-bg-color"
           src="/images/logo.png"
           alt="Logo"
-          width="67"
-          height="40"
         />
       </a>
       <div></div>
-      <ul class="link-to-contact nav-works">
-        <li class="nav-works"><a href="/" class="nav-works">Home</a></li>
-        <li class="nav-works">
-          <a href="/projects/" class="nav-works">Projects</a>
+      <ul
+        class="flex list-none font-blue mt-4 text-xs gap-[15px] lg:mt-[20px] lg:text-xl lg:gap-[37px] font-semibold works-bg-color"
+      >
+        <li class="works-bg-color">
+          <a class="works-bg-color" href="/">Home</a>
         </li>
-        <li class="nav-works"><a href="/works/" class="nav-works">Works</a></li>
-        <li class="nav-works">
-          <a href="/contact" class="nav-works">Contact</a>
+        <li class="works-bg-color">
+          <a class="works-bg-color" href="/projects">Projects</a>
+        </li>
+        <li class="works-bg-color">
+          <a class="works-bg-color" href="/works">Works</a>
+        </li>
+        <li class="works-bg-color">
+          <a class="works-bg-color" href="/contact">Contact</a>
         </li>
       </ul>
       <div></div>
@@ -134,26 +139,37 @@
     </main>
 
     <footer>
-      <div class="footer">
-        <div id="footer-left">
+      <div
+        class="border-y-[16px] border-solid border-y-[#006fff] flex mt-20 items-center justify-around"
+      >
+        <div class="my-10 w-full lg:w-fit">
           <div>
-            <img src="/images/logo.png" alt="logo" width="67" height="40" />
-            <p class="footer-name">Prawita Mepilianti</p>
+            <img
+              class="w-10 lg:w-20 h-auto"
+              src="/images/logo.png"
+              alt="logo"
+            />
+            <p class="font-bold text-[10px] lg:text-xl">Prawita Mepilianti</p>
           </div>
-          <p class="footer-create">© 2026. All rights reserved.</p>
-          <p class="footer-terms">Terms · Privacy Policy</p>
+          <p class="text-[8px] lg:text-lg">© 2026. All rights reserved.</p>
+          <p class="text-[8px] lg:text-base font-light">
+            Terms · Privacy Policy
+          </p>
         </div>
 
-        <div id="footer-right">
-          <h4>Connect With Me</h4>
-          <p>
+        <div class="text-center">
+          <h4 class="font-bold mb-5 lg:text-3xl">Connect With Me</h4>
+          <p class="mt-5 text-xs lg:text-xl">
             Find me online on most digital platforms by clicking the links
             below.
           </p>
 
-          <div class="footer-icon">
-            <a href="mailto:prawitamepilianti@gmail.com">
+          <div
+            class="flex justify-center items-center mt-5 gap-5 lg:gap-[50px]"
+          >
+            <a href="/contact/">
               <img
+                class="w-[25px] lg:w-[50px] h-auto"
                 src="/images/message.png"
                 alt="message"
                 width="50"
@@ -162,6 +178,7 @@
             </a>
             <a href="https://www.linkedin.com/in/prawitamp/">
               <img
+                class="w-[25px] lg:w-[50px] h-auto"
                 src="/images/linkedin.png"
                 alt="linkedin"
                 width="50"
@@ -170,6 +187,7 @@
             </a>
             <a href="https://github.com/prawitamp">
               <img
+                class="w-[25px] lg:w-[50px] h-auto"
                 src="/images/github.png"
                 alt="github"
                 width="50"
@@ -178,6 +196,7 @@
             </a>
             <a href="https://t.me/prawitamp">
               <img
+                class="w-[25px] lg:w-[50px] h-auto"
                 src="/images/telegram.png"
                 alt="telegram"
                 width="50"
